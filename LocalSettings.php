@@ -125,6 +125,9 @@ $wgGroupPermissions['*']['edit'] = false;
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "vector";
 
+## Favicon.ico
+$wgFavicon = "$wgScriptPath/resources/assets/favicon.ico";
+
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'CologneBlue' );
